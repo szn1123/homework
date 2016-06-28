@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1461158976 source:c:\users\pro128\documents\lskj\main.cpp
+	<iostream>
+	<stdio.h>
+	<cstring>
+

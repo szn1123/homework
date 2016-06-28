@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1434084402 source:c:\users\pro128\documents\分治法求最大子段和\main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+

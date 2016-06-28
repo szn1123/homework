@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1459739878 source:c:\users\pro128\documents\dp 最长回文子序列\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdio>
+

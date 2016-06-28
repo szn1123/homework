@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1432383740 source:c:\users\pro128\documents\大数相加\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+

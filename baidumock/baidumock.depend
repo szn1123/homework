@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1461081315 source:c:\users\pro128\documents\baidumock\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+

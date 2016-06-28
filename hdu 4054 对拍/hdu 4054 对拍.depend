@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1445270042 source:c:\users\pro128\documents\hdu 4054 ╤тед\main.cpp
+	<cstdio>
+	<cstring>
+	<cmath>
+	<map>
+	<set>
+	<vector>
+	<iostream>
+	<algorithm>
+

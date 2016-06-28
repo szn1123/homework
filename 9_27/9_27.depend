@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1443339784 source:c:\users\pro128\documents\9_27\main.cpp
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<algorithm>
+	<vector>
+	<math.h>
+	<queue>
+	<stack>
+	<map>
+

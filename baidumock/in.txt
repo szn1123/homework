@@ -1,0 +1,9 @@
+4
+aaaa bbbb ccc ddd
+6
+mq cb dc ba mm qq
+4
+ab bc aa ba
+4
+ac db ca bd
+

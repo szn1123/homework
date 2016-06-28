@@ -1,0 +1,30 @@
+7
+ABCD EFGH even
+ABCI EFJK up
+ABIJ EFGH even
+
+ABCD EFGH down
+FHJK LEGD up
+ABCL IJKF down
+
+ABCD EFGH even
+ABCI EFJK down
+ABIJ EFGH even
+
+ABCD EFGH even
+ABCI EFJK up
+ABIJ EFGH even
+
+
+ABCD EFGH up
+EFGL ABCH up
+ABCE DLHF up
+
+
+ABCD EFIH up
+EFIL ACBH up
+ABCD EFIL even
+
+ABCD EFGH up
+IEFG ABCD down
+BCDI EFGH even

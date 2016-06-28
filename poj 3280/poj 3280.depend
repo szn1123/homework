@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1432483422 source:c:\users\pro128\documents\poj 3280\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<cmath>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1460087693 source:c:\users\pro128\documents\huawei\main.cpp
+	<iostream>
+	<cstdio>
+	<set>
+	<vector>
+	<cstring>
+	<algorithm>
+

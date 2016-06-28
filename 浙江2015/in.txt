@@ -1,0 +1,15 @@
+2
+1 3 2
+Fresh_Cucumber 4
+Chow_Mein 5
+Rice_Served_with_Duck_Leg 12
+Fried_Vermicelli 7
+Steamed_Dumpling 3
+Steamed_Stuffed_Bun 4
+2 3 1
+Stir-fried_Loofah_with_Dried_Bamboo_Shoot 33
+West_Lake_Water_Shield_Soup 36
+DongPo's_Braised_Pork 54
+West_Lake_Fish_in_Vinegar 48
+Longjing_Shrimp 188
+DongPo's_Crisp 18

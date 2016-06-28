@@ -1,0 +1,32 @@
+\*File list
+\Version: 0x05300003
+\Date: 09:52:03 AM Wed Jul 09 2014
+\Start context: OL
+\Data length: 40960
+\Text: 
+\History: 
+\Navigator note: col(-5), row(4)
+\Engage X Pos: -19783.4 um
+\Engage Y Pos: -42151.3 um
+\*Equipment list
+\Description: Extended MultiMode
+\Controller: IIIA
+\Microscope: MultiMode
+\Extender: Basic
+\Sensor: None
+\Tip Exchange: None
+\Vision: None
+\Zoom System: Motorized
+\Scanner file: xxxsj.scn
+\Profile name: tapping
+\Analog 2: User defined
+\*Scanner list
+\Scanner type: AFM
+\Serial number: 4094JV
+\Piezo size: J
+\File name: xxxsj.scn
+\Retracted offset der: 3.32
+\Extended offset der: 9.61
+\Allow rotation: Allow
+\Piezo cal: 440
+\X sensitivity: 209.432
