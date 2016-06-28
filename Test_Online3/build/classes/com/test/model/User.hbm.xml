@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.test.model.User" table="Users">
+		<id name="id" column="id">
+			<generator class="native"></generator>
+		</id>
+		<discriminator column="type"></discriminator>
+		<property name="username"></property>
+		<property name="password"></property>
+		<subclass name="com.test.model.admin" discriminator-value="admin">
+			<property name="loginName" />
+		</subclass>
+		<subclass name="com.test.model.Student" discriminator-value="student">
+			<property name="name" />
+			<property name="major"/>
+			<property name="classNo"/>
+			<property name="mobile"/>
+		</subclass>
+	</class>
+</hibernate-mapping>
