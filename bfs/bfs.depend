@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1461156590 source:c:\users\pro128\documents\bfs\main.cpp
-	<iostream>
-	<queue>
-	<cstdio>
-	<cstring>
-

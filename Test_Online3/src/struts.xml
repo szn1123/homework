@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"/> 
+   <package name="loginout" namespace="/" extends="struts-default">
+     <action name="login" class="com.test.action.LoginAction">
+         <result name="success">/admin/main.jsp</result>
+         <result name="input">/login.jsp</result>
+         <result name="stuMain">/stu/stuMain.jsp</result>
+         <result name="logout">/login.jsp</result>
+     </action>
+     <action name="student" class="com.test.action.StudentAction">
+     	<result name="stu">/admin/stuList.jsp</result>
+     	<result name="edit">/admin/adminEditStu.jsp</result>
+     	 <result name="adminMain">/admin/main.jsp</result>
+     	<result name="success">/stu/stuMain.jsp</result>
+     	 <result name="input">/stu/editStu.jsp</result>
+     	 <result name="addstu">/admin/addStu.jsp</result>
+     </action>
+ <action name="course" class="com.test.action.CourseAction">
+     	<result name="edit">/admin/editCourse.jsp</result>
+     	<result name="del">/admin/courseList.jsp</result>
+     	<result name="courses">/admin/courseList.jsp</result>
+     	<result name="FAILURE">/index.jsp</result>
+     	 <result name="adminMain">/admin/main.jsp</result>
+     	<result name="addcourse">/admin/addCourse.jsp</result>
+     	<result name="view">/stu/viewCourse.jsp</result>
+     </action>
+   </package>
+</struts>
+    

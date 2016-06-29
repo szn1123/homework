@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1459428316 source:c:\users\pro128\documents\desk\main.cpp
-	<iostream>
-	<cstdio>
-	<cmath>
-	<algorithm>
-	<cstring>
-

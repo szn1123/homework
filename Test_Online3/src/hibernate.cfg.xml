@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=Test3</property> 
+<property name="connection.username">sa</property> 
+<property name="connection.password">123456</property> 
+<property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property> 
+<property name="dialect">org.hibernate.dialect.SQLServerDialect</property> 
+<property name="show_sql">true</property> 
+<property name="format_sql">true</property>
+<!-- hibernate有自己的连接池，在使用的时候我们新建的所有连接都会存在这个连接池中，如果你所建的新连接太多而不释放，那么就会导致你的新连接无法创建，从而阻塞，这也是为什么程序中无故停止，而且没i有任何错误的原因。
+
+那么怎么解决这个问题呢，使用Hibernate时，大家一般都记住了配置基本的那些选项，比如方言，缓存等，但是有一项配置卻很容易忘掉，这就是连接释放模式：hibernate.connection.release_mode
+
+这个配置项有三个选择：after_statement／after_transaction／on_close，javadoc中可以看出它们的用处，注意的一点是，如果不配置，默认是on_close，那么如果沒有显示的去调用session.close或其它关闭连接的方法的话，这个连接时不会被关闭的！在用到连接池的時候，就更会出现问题了，池中的连接会一直存在着而不会被关闭和回收！
+
+ -->
+<property name="connection.release_mode">after_transaction</property>
+<mapping resource="com/test/model/User.hbm.xml"/>
+<mapping resource="com/test/model/Course.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1427182136 source:c:\users\pro128\documents\lanqiao\main.cpp
-	<iostream>
-	<cstdio>
-	<cstring>
-	<cmath>
-	<algorithm>
-

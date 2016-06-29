@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1444808566 source:c:\users\pro128\documents\poj 1961 kmp\main.cpp
-	<cstdio>
-	<cstring>
-	<iostream>
-	<algorithm>
-
